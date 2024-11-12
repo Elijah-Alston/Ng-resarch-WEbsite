@@ -6,6 +6,7 @@ function App() {
     <div className="App">
 
       <nav>
+        
         <li><a>Logo</a></li>
         <li><a>Button</a></li>
         <li><a>Button</a></li>
@@ -13,6 +14,7 @@ function App() {
         <li><a>Button</a></li>
         <li><a>Button</a></li>
         <li><a>Login</a></li>
+       
       </nav>
       <header className="App-header">
         
@@ -30,7 +32,7 @@ function App() {
       </header>
 
 
-      <div className="hero-img"> <p>Hero image</p></div>
+      <footer></footer>
 
 
 
