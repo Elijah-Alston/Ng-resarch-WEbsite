@@ -4,8 +4,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
+      <nav>
+        <li><a>Logo</a></li>
+        <li><a>Button</a></li>
+        <li><a>Button</a></li>
+        <li><a>Button</a></li>
+        <li><a>Button</a></li>
+        <li><a>Button</a></li>
+        <li><a>Login</a></li>
+      </nav>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
           NG RESARCH WEBSITE
         </p>
@@ -18,6 +28,12 @@ function App() {
           GITHUB
         </a>
       </header>
+
+
+      <div className="hero-img"> <p>Hero image</p></div>
+
+
+
     </div>
   );
 }
